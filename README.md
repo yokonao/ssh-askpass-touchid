@@ -92,6 +92,14 @@ This helper does not protect against:
 
 Keep the helper and the LaunchAgent plist writable only by the current user.
 
+## Development
+
+```sh
+go test ./...
+golangci-lint run
+golangci-lint fmt
+```
+
 ## License
 
 MIT.
