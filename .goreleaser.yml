@@ -1,0 +1,25 @@
+version: 2
+project_name: ssh-askpass-touchid
+builds:
+  - binary: ssh-askpass-touchid
+    main: ./cmd/ssh-askpass-touchid
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    flags:
+      - -trimpath
+archives:
+  - name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
+    files:
+      - LICENSE
+      - README.md
+checksum:
+  name_template: "{{ .ProjectName }}_checksums.txt"
+changelog:
+  disable: true
+release:
+  header: See [CHANGELOG.md](https://github.com/yokonao/ssh-askpass-touchid/blob/{{ .Tag }}/CHANGELOG.md).
