@@ -9,9 +9,10 @@
 
 ## Install
 
-Download a binary from [GitHub Releases](https://github.com/yokonao/ssh-askpass-touchid/releases), run `mise use -g github:yokonao/ssh-askpass-touchid`, or run `go install github.com/yokonao/ssh-askpass-touchid/cmd/ssh-askpass-touchid@latest`. See [docs/install.md](docs/install.md) for the details and how to verify a release.
+Download a prebuilt binary from [GitHub Releases](https://github.com/yokonao/ssh-askpass-touchid/releases).
+Every release ships with a build provenance attestation.
 
-To build from a checkout instead, run `go build ./cmd/ssh-askpass-touchid` and `go test ./...`.
+See [docs/install.md](docs/install.md) for other install methods and how to verify a release.
 
 ## Setup
 
