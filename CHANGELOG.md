@@ -9,7 +9,7 @@
 ### Changed
 
 - The checksum file is `checksums.txt`.
-- Release archives contain only the binary.
+- Release archives also contain `CHANGELOG.md`.
 
 ## v0.1.0 - 2026-09-27
 
