@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- `--version` prints the version.
+
+### Changed
+
+- The checksum file is `checksums.txt`.
+- Release archives contain only the binary.
+
 ## v0.1.0 - 2026-09-27
 
 ### Added
