@@ -44,7 +44,7 @@ mise verifies the [build provenance attestation](#verify-the-archive) automatica
 
 ## go install
 
-With Go 1.27.1 or later:
+With Go 1.27.2 or later:
 
 ```sh
 go install github.com/yokonao/ssh-askpass-touchid/cmd/ssh-askpass-touchid@latest
